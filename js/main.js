@@ -90,9 +90,9 @@ $('#playlist li').click(function () {
 	showDuration();
 });
 
-//Volumen Control
-$('#volumen').change(function (){
-	audio.volume =parseFloat(this.value/10);
+//Volume Control
+$('#volume').change(function(){
+	audio.volume = parseFloat(this.value / 10);
 });
 
 //Time Duration
